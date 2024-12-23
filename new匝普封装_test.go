@@ -1,4 +1,4 @@
-package zapzkratos
+package zapzhkratos
 
 import (
 	"testing"

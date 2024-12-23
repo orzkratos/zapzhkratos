@@ -1,11 +1,11 @@
-module github.com/orzkratos/zapzkratos
+module github.com/orzkratos/zapzhkratos
 
 go 1.22.6
 
 require (
-	github.com/go-kratos/kratos/v2 v2.8.2
-	github.com/yyle88/erero v1.0.14
-	github.com/yyle88/runpath v1.0.21
+	github.com/go-kratos/kratos/v2 v2.8.3
+	github.com/yyle88/erero v1.0.15
+	github.com/yyle88/runpath v1.0.22
 	github.com/yyle88/zaplog v0.0.16
 	go.uber.org/zap v1.27.0
 )

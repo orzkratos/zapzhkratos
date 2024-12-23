@@ -1,4 +1,4 @@
-package zapzkratos
+package zapzhkratos
 
 import (
 	"testing"
@@ -16,7 +16,7 @@ func TestT匝普日志_Get奎沱主簿(t *testing.T) {
 }
 
 func TestT匝普日志_Get奎沱秘书(t *testing.T) {
-	v匝普日志 := Get匝普日志(zaplog.LOGGER)
+	v匝普日志 := Use匝普日志(New日志配置(), zaplog.LOGGER)
 
 	v奎沱秘书 := v匝普日志.Get奎沱秘书("测试秘书")
 
