@@ -20,17 +20,13 @@ func New日志配置() *T日志配置 {
 // T匝普日志 这里主要做的就是把英文的类型名改为中文类型名，再增加几个简单的逻辑
 type T匝普日志 struct {
 	zap *zaplog.Zap
-	cfg *T日志配置
+	opt *T日志配置
 }
 
-func New匝普日志(cfg *T日志配置) *T匝普日志 {
-	return Use匝普日志(cfg, zaplog.ZAP)
-}
-
-func Use匝普日志(cfg *T日志配置, zap *zaplog.Zap) *T匝普日志 {
+func New匝普日志(zap *zaplog.Zap, opt *T日志配置) *T匝普日志 {
 	return &T匝普日志{
 		zap: zap,
-		cfg: cfg,
+		opt: opt,
 	}
 }
 
@@ -39,5 +35,5 @@ func (A *T匝普日志) Get基本匝普() *zaplog.Zap {
 }
 
 func (A *T匝普日志) Sub模块匝普() *zaplog.Zap {
-	return A.Get基本匝普().SubZap2(A.cfg.V模块位置键名, filepath.Base(runpath.Skip(1)))
+	return A.Get基本匝普().SubZap2(A.opt.V模块位置键名, filepath.Base(runpath.Skip(1)))
 }
