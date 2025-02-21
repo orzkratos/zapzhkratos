@@ -17,6 +17,11 @@ func New日志配置() *T日志配置 {
 	}
 }
 
+func (T *T日志配置) With模块位置键名(v模块位置键名 string) *T日志配置 {
+	T.V模块位置键名 = v模块位置键名
+	return T
+}
+
 // T匝普日志 这里主要做的就是把英文的类型名改为中文类型名，再增加几个简单的逻辑
 type T匝普日志 struct {
 	zap *zaplog.Zap
