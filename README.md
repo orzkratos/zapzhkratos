@@ -1,6 +1,9 @@
 # zapzhkratos
-
 使用zap日志替换kratos日志，由于这个做法不是很主流，因此这个包就纯的放飞自我吧(使用中英混合编程)。
+
+## 关联项目
+
+这个项目和 [zapkratos](https://github.com/orzkratos/zapkratos) 相关联。这两个项目都旨在将 Zap 日志集成到 Kratos 框架中，提供增强的日志功能。
 
 ## 命名解析
 - **`zapzhkratos`**:

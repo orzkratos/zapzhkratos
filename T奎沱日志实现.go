@@ -12,14 +12,14 @@ import (
 // T奎沱日志实现 是将 zap.Logger 转换为 kratos log.Logger 的适配器
 type T奎沱日志实现 struct {
 	zap日志 *zap.Logger
-	msg模块 string
+	msg前段 string
 }
 
 // New奎沱日志 创建一个新的 T奎沱日志实现 的对象实现 kratos log.Logger 的接口
-func New奎沱日志(zap日志 *zap.Logger, msg模块 string) log.Logger {
+func New奎沱日志(zap日志 *zap.Logger, msg前段 string) log.Logger {
 	return &T奎沱日志实现{
 		zap日志: zap日志,
-		msg模块: msg模块,
+		msg前段: msg前段,
 	}
 }
 
@@ -42,7 +42,7 @@ func (a *T奎沱日志实现) Log(arg日志级别 log.Level, keyvals ...interfac
 	}
 
 	// 使用 zap.Logger 记录日志
-	zap按级日志 := a.zap日志.Check(zap日志级别, a.msg模块)
+	zap按级日志 := a.zap日志.Check(zap日志级别, a.msg前段)
 	if zap按级日志 == nil {
 		return erero.Errorf("日志级别错误 zap=%v arg=%v", zap日志级别, arg日志级别)
 	}
