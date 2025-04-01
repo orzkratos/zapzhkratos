@@ -2,8 +2,8 @@ github.com/davecgh/go-spew v1.1.2-0.20180830191138-d8f796af33cc h1:U9qPSI2PIWSS1
 github.com/davecgh/go-spew v1.1.2-0.20180830191138-d8f796af33cc/go.mod h1:J7Y8YcW2NihsgmVo/mv3lAwl/skON4iLHjSsI+c5H38=
 github.com/go-kratos/kratos/v2 v2.8.4 h1:eIJLE9Qq9WSoKx+Buy2uPyrahtF/lPh+Xf4MTpxhmjs=
 github.com/go-kratos/kratos/v2 v2.8.4/go.mod h1:mq62W2101a5uYyRxe+7IdWubu7gZCGYqSNKwGFiiRcw=
-github.com/orzkratos/zapkratos v0.0.4 h1:x4ZFxxR9uY6EWUzHcs2vv96aP2ZMVP6GcQJAVCuS31I=
-github.com/orzkratos/zapkratos v0.0.4/go.mod h1:lHDI29w8yphNtpBSaRVg477m1L2ygqWjsLX9Wj0gymE=
+github.com/orzkratos/zapkratos v0.0.5 h1:vMq6zLJ0yfCZaGUJA9OZQIOTzjpGJHOYuHQDa/RtdxY=
+github.com/orzkratos/zapkratos v0.0.5/go.mod h1:PWVIRsPq/WQENhgBjR9Nd0Hf4fIeTUDDOx6RXwa6VW0=
 github.com/pkg/errors v0.9.1 h1:FEBLx1zS214owpjy7qsBeixbURkuhQAwrK5UwLGTwt4=
 github.com/pkg/errors v0.9.1/go.mod h1:bwawxfHBFNV+L2hUp1rHADufV3IMtnDRdf1r5NINEl0=
 github.com/pmezard/go-difflib v1.0.1-0.20181226105442-5d4384ee4fb2 h1:Jamvg5psRIccs7FGNTlIRMkT8wgtp5eCXdBlqhYGL6U=
@@ -16,8 +16,8 @@ github.com/yyle88/mutexmap v1.0.10 h1:PIsx9KTdK6h1yH5NzBrPl21RrZ/XsE4IbgulMlhJzZ
 github.com/yyle88/mutexmap v1.0.10/go.mod h1:QUYDuARLPlGj414kHewQ5tt8jkDxQXoai8H3C4Gg+yc=
 github.com/yyle88/runpath v1.0.23 h1:VEdeaMXfvFY7CuF9Nceuxb6HSNDcmiSSGEf+zT7O900=
 github.com/yyle88/runpath v1.0.23/go.mod h1:JRGxn/0Ytg6CvGoE2VrO74oX8Lu4jbOPZDKxr8tzPEg=
-github.com/yyle88/zaplog v0.0.20 h1:ByVj51j2C9p5tWw8wbIdmdrMK5IS6VECh/U746t321E=
-github.com/yyle88/zaplog v0.0.20/go.mod h1:jN9/2IXYlpHOgoIyOTid1EPlUyGBWzFjr0dX9YKLkC0=
+github.com/yyle88/zaplog v0.0.21 h1:b3YBP7ThOofapa8CS/k//Odc/hXmaCmkc1rV4Jgj1VQ=
+github.com/yyle88/zaplog v0.0.21/go.mod h1:jN9/2IXYlpHOgoIyOTid1EPlUyGBWzFjr0dX9YKLkC0=
 go.uber.org/goleak v1.3.0 h1:2K3zAYmnTNqV73imy9J1T3WC+gmCePx2hEGkimedGto=
 go.uber.org/goleak v1.3.0/go.mod h1:CoHD4mav9JJNrW/WLlf7HGZPjdw8EucARQHekz1X6bE=
 go.uber.org/multierr v1.11.0 h1:blXXJkSxSSfBVBlC76pxqeO+LN3aDfLQo+309xJstO0=

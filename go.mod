@@ -4,8 +4,8 @@ go 1.22.6
 
 require (
 	github.com/go-kratos/kratos/v2 v2.8.4
-	github.com/orzkratos/zapkratos v0.0.4
-	github.com/yyle88/zaplog v0.0.20
+	github.com/orzkratos/zapkratos v0.0.5
+	github.com/yyle88/zaplog v0.0.21
 )
 
 require (
